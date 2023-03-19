@@ -1,0 +1,155 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  
+  nav a:hover {
+    color: #ff0;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  canvas {
+    max-width: 100%;
+  }
+  
+  footer {
+    background-color: #ccc;
+    color: #333;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  
+  /* Styles for landing page */
+  
+  .hero {
+    background-color: #fff;
+    background-image: url('https://via.placeholder.com/800x400');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  
+  /* Styles for subpages */
+  
+  h1 {
+    margin-top: 0;
+    text-align: left;
+  }
+  
+  .chart-container {
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .blurb {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .testimonial {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial blockquote {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial cite {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .logo {
+    justify-self: flex-start;
+  }
+  
+  nav {
+    justify-self: flex-end;
+  }
+
+  /* Styles for the invoice upload form */
+#invoice-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#invoice-form label, #invoice-form input, #invoice-form button {
+  margin-bottom: 10px;
+}
+
+#invoice-data {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}

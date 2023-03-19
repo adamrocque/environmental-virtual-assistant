@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer Satisfaction Tracking</title>
+    <link rel="stylesheet" type="text/css" href="styles\styles.css">
+
+  </head>
+  <body>
+    <header>
+        <a href="index.html"><img src="images/aevi logo image2.png" alt="Aevi logo" class="logo"></a>
+        <h1>Customer Satisfaction Insights</h1>
+        <nav>
+          <ul>
+            <li><a href="energy-use-tracking.html">Energy Use Tracking</a></li>
+            <li><a href="water-use-tracking.html">Water Use Tracking</a></li>
+            <li><a href="customer-satisfaction-tracking.html">Customer Satisfaction Tracking</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+      <!-- Charts and data visualizations for customer satisfaction tracking -->
+    </main>
+    <form id="invoice-form">
+      <label for="invoice-file">Upload PDF invoice:</label>
+      <input type="file" id="invoice-file" accept=".pdf">
+      <button type="submit">Submit</button>
+    </form>
+    
+    <div id="invoice-data">
+      <!-- Invoice data will be displayed here -->
+    </div>    
+    <footer>
+      <!-- Footer with company information and links -->
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
+    <script src="scripts/customer-input.js"></script>
+  </body>
+</html>
